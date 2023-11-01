@@ -318,6 +318,72 @@ img {
     border-radius: 5px;
     
 }
+/* .slidersButton{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap: 8px;
+}
 
+.arrowButton{
+    width: 48px;
+height: 48px;
+flex-shrink: 0;
+
+} */
+.slidersButton {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 80px;
+  }
+  .arrowButtonarrow{
+    background-color: #f5f6fc;
+    width: 48px;
+    height: 48px;
+    
+    flex-shrink: 0;
+    
+    border: solid 1px #0074D9;
+    border-radius: 5px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .arrowButtonarrow:hover{
+    border: solid 3px #0074D9;
+  }
+  .arrowButton {
+    background-color: #f5f6fc;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #0074D9;;
+    border: solid 1px #0074D9;
+    border-radius: 5px;
+    font-weight: 800;
+    cursor: pointer;
+    fill: #434CCC;
+  }
+  
+  .arrowButton:hover{
+    background-color: #434ccc;
+    color: #ffffff;
+  }
+  .active {
+    color: #0074D9;
+    font-weight: bold;
+  }
+  
+.line{
+    width: 1440px;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.0974;
+    background: #000;
+}
+/* css after img display */
 
 /* footer */
