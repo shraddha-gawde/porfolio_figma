@@ -12,6 +12,97 @@
 }
 
 /* header css */
+.head{
+    width: 1440px;
+    height: 304px;
+    background-color: #434CCC;
+}
+.hlogo-section{
+    height: 80px;
+    display: flex;
+}
+.hlogo{
+    margin-left: 135px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: var(--Text_White, #FFF);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    font-style: normal;
+    
+}
+.habout{
+  height: 224px;
+  display: flex;
+}
+.hlistall{
+    width: 324px;
+    height: 24px;
+    margin-left: 300px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    /* margin-right: 345px; */
+    font-size: 16px;
+    color: var(--Text_White, #FFF);
+    /* text-align: right; */
+    font-weight: 700;
+    line-height: 20px;
+    font-family: sans-serif;
+}
+.hlistall li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+
+}
+.hbtn{
+    height: 48px;
+    width: 170px;
+    border: 1 px dotted black;
+    margin-top: 18px;
+}
+.hlogoab{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.hbutton{
+   width: 170px;
+   height: 48px;
+   margin-left: 280px;
+   background-color: #434CCC;
+   color: #ffffff;
+   border: 1px dotted #f5f6fc;
+   font-size: 16px;
+   font-weight: 400;
+
+   margin-right: 300px;
+   border-radius: 5px;
+}
+.headerH1{
+    height: 80px;
+    width: 280px;
+    font-size: 72px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 80px;
+    margin-left: 580px;
+    color: var(--Text_White, #FFF);
+    margin-top: 47px;
+}
+.headerP{
+    height: 32px;
+    width: 332px;
+    margin-left: 570px;
+    margin-top: 10px;
+    color: var(--Text_White, #FFF);
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
 
 
 
