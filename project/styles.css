@@ -39,7 +39,7 @@
 .hlistall{
     width: 324px;
     height: 24px;
-    margin-left: 300px;
+    margin-left: 450px;
     margin-top: 28px;
     margin-bottom: 28px;
     /* margin-right: 345px; */
@@ -71,7 +71,7 @@
 .hbutton{
    width: 170px;
    height: 48px;
-   margin-left: 280px;
+   margin-left: 40px;
    background-color: #434CCC;
    color: #ffffff;
    border: 1px dotted #f5f6fc;
