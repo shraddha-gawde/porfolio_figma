@@ -480,6 +480,7 @@ img {
     opacity: 0.0974;
     background: #000;
 }
+
 /* css after img display */
 .m-card{
     border: 1px solid black;
@@ -542,4 +543,62 @@ color: rgba(0, 0, 0, 1);
     height: 48px;
 
 }
+
+/* Yellow */
+.yellow{
+    width: 1440px;
+    height: 352px;
+    background-color: #FFDD78;
+    display: flex;
+}
+.yhead{
+    width: 107px;
+    height: 24px;
+    margin-top: 79px;
+    margin-left: 135px;
+    color: black;
+    font-size: 16px;   
+   font-style: normal;
+   font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 4.8px;
+    font-family: sans-serif;
+
+}
+.ypara{
+    width: 516px;
+    height: 128px;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin-left: 134px;
+    margin-top: 24px;
+
+}
+.righty{
+    margin-top: 132px;
+    margin-left: 85px;
+}
+.yemail{
+    width: 370px;
+    height: 48px;
+    border-radius: 5px;
+     border: 1px solid #DADADA;
+    background-color: #FFF;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.ybtn{
+    width: 170px;
+    height: 48px;
+    margin-left: 30px;
+    background-color: #434CCC;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
 /* footer */
