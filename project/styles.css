@@ -54,7 +54,10 @@
     list-style-type: none;
     display: inline;
     margin-left: 20px;
-
+    cursor: pointer;
+}
+.hlistall li:hover{
+    color: #000;
 }
 .hbtn{
     height: 48px;
@@ -65,21 +68,23 @@
 .hlogoab{
     display: flex;
     flex-direction: row;
-   
-
 }
 .hbutton{
-   width: 170px;
-   height: 48px;
-   margin-left: 40px;
-   background-color: #434CCC;
-   color: #ffffff;
-   border: 1px dotted #f5f6fc;
-   font-size: 16px;
-   font-weight: 400;
-
-   margin-right: 300px;
-   border-radius: 5px;
+    width: 170px;
+    height: 48px;
+    margin-left: 40px;
+    background-color: #434CCC;
+    color: #ffffff;
+    border: 1px dotted #9db2d1;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-right: 300px;
+    border-radius: 5px;
+}
+.hbutton:hover{
+    background-color: #343ba0;
+    border: 1px solid #9db2d1;
 }
 .headerH1{
     height: 80px;
@@ -91,6 +96,7 @@
     margin-left: 580px;
     color: var(--Text_White, #FFF);
     margin-top: 47px;
+    cursor: pointer;
 }
 .headerP{
     height: 32px;
@@ -171,7 +177,11 @@
     color: rgba(0, 0, 0, 0.5);
     font-size: 16px;
     font-weight: 400;
-
+    cursor: pointer;
+}
+.m-links:hover{
+    color: #434CCC;
+    font-weight: 700;
 }
 
 /* body */
@@ -183,6 +193,7 @@
     flex-shrink: 0;
     border-radius: 5px;
     background: #F1B505;
+    cursor: pointer;
 }
 .sider {
     display: flex;
@@ -275,6 +286,7 @@ img {
     background: #E94A47;
     position: relative;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .innerimg2div {
@@ -282,6 +294,9 @@ img {
     height: 512px;
     flex-shrink: 0;
     background: #438dfc;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .imgpdiv {
@@ -403,6 +418,7 @@ img {
     background: #f1b528;
     position: relative;
     border-radius: 5px;
+    cursor: pointer;
 }
 .innerimg2div3 {
     width: 570px;
@@ -411,6 +427,7 @@ img {
     background: #434ccc;
     position: relative;
     border-radius: 5px;
+    cursor: pointer;
     
 }
 .slidersButton {
