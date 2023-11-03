@@ -483,10 +483,12 @@ img {
 
 /* css after img display */
 .m-card{
-    border: 1px solid black;
+    /* border: 1px solid black;
     width: 1440px;
-    height: 495px;
-
+    height: 495px; */
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
 
 .m-viderer > h5{
@@ -502,11 +504,11 @@ text-transform: uppercase;
 
 .m-first-card{
     border: 1px solid black;
-    height: 241px;
+    height: 272px;
     width: 275px;
-    margin-left: 135px;
+    /* margin-left: 135px; */
     position: relative;
-    top: 126px;
+    top: 111px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -541,6 +543,8 @@ color: rgba(0, 0, 0, 1);
     border: 1px solid;
     width: 176px;
     height: 48px;
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -600,5 +604,6 @@ color: rgba(0, 0, 0, 1);
     border: none;
     border-radius: 5px;
 }
+
 
 /* footer */
