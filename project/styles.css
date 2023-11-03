@@ -57,8 +57,11 @@
     cursor: pointer;
 }
 .hlistall li:hover{
-    color: #000;
-}
+        color: #cf9b21; 
+        transform: scale(1.1); 
+        text-decoration: underline;
+      }
+
 .hbtn{
     height: 48px;
     width: 170px;
@@ -593,6 +596,10 @@ color: rgba(0, 0, 0, 1);
     font-size: 20px;
     padding-left: 20px;
 }
+.yemail:hover{
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5); 
+}
 .ybtn{
     width: 170px;
     height: 48px;
@@ -603,6 +610,11 @@ color: rgba(0, 0, 0, 1);
     font-size: 20px;
     border: none;
     border-radius: 5px;
+}
+.ybtn:hover{
+    background-color: #3a98dc;
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 
