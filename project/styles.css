@@ -557,12 +557,18 @@ text-transform: uppercase;
     border-radius: 10px;
     border-width:0.25px;
     cursor: pointer;
-
+}
+.insta-btn:hover{
+    border: solid 2px #434CCC;
 }
 .insta-btn img{
     width: 18px;
     height: 18px;
     margin: 15px,15px,15px,15px;
+}
+.insta-btn img:hover{
+    width: 22px;
+    height: 22px;
 }
 
 .insert-design{
@@ -584,6 +590,7 @@ text-transform: uppercase;
 .imgs{
     height: 272px;
     width: 275px;
+    cursor: pointer;
 }
 
 /* Yellow */
