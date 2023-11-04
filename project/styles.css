@@ -35,7 +35,16 @@
     line-height: 48px;
 
 }
-
+.h-list{
+    color: var(--Text_White, #FFF);
+text-align: right;
+/* Text */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+}
 .habout {
     height: 224px;
     display: flex;
@@ -64,7 +73,7 @@
 }
 
 .hlistall li:hover {
-    color: #cf9b21;
+    color: #0c0c0b;
     transform: scale(1.1);
     text-decoration: underline;
 }
