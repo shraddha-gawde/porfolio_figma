@@ -672,6 +672,7 @@ img {
 .righty {
     margin-top: 132px;
     margin-left: 85px;
+    cursor: pointer;
 }
 
 .yemail {
