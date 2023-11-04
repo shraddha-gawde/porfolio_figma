@@ -12,31 +12,36 @@
 }
 
 /* header css */
-.head{
+.head {
     width: 1440px;
     height: 304px;
     background-color: #434CCC;
 }
-.hlogo-section{
+
+.hlogo-section {
     height: 80px;
     display: flex;
 }
-.hlogo{
+
+.hlogo {
     margin-left: 135px;
     margin-top: 16px;
     margin-bottom: 16px;
-    color: var(--Text_White, #FFF);
+    color: #FFF;
+    font-family: DM Serif Display;
     font-size: 40px;
-    font-weight: 500;
-    line-height: 48px;
     font-style: normal;
-    
+    font-weight: 400;
+    line-height: 48px;
+
 }
-.habout{
-  height: 224px;
-  display: flex;
+
+.habout {
+    height: 224px;
+    display: flex;
 }
-.hlistall{
+
+.hlistall {
     width: 324px;
     height: 24px;
     margin-left: 450px;
@@ -50,26 +55,33 @@
     line-height: 20px;
     font-family: sans-serif;
 }
-.hlistall li{
+
+.hlistall li {
     list-style-type: none;
     display: inline;
     margin-left: 20px;
     cursor: pointer;
 }
-.hlistall li:hover{
-    color: #000;
+
+.hlistall li:hover {
+    color: #cf9b21;
+    transform: scale(1.1);
+    text-decoration: underline;
 }
-.hbtn{
+
+.hbtn {
     height: 48px;
     width: 170px;
     border: 1 px dotted black;
     margin-top: 18px;
 }
-.hlogoab{
+
+.hlogoab {
     display: flex;
     flex-direction: row;
 }
-.hbutton{
+
+.hbutton {
     width: 170px;
     height: 48px;
     margin-left: 40px;
@@ -82,11 +94,13 @@
     margin-right: 300px;
     border-radius: 5px;
 }
-.hbutton:hover{
+
+.hbutton:hover {
     background-color: #343ba0;
     border: 1px solid #9db2d1;
 }
-.headerH1{
+
+.headerH1 {
     height: 80px;
     width: 280px;
     font-size: 72px;
@@ -98,7 +112,8 @@
     margin-top: 47px;
     cursor: pointer;
 }
-.headerP{
+
+.headerP {
     height: 32px;
     width: 332px;
     margin-left: 570px;
@@ -123,7 +138,7 @@
 }
 
 /* navigation */
-.nav-div{
+.nav-div {
     width: 1440px;
     height: 122px;
     display: flex;
@@ -149,21 +164,21 @@
 }
 
 .second-nav {
-    width: 403px;
+    width: 404px;
     height: 24px;
     position: relative;
     left: 581px;
-
     top: 47px;
     margin: 0px;
     left: 489px;
     top: 47px;
     font-family: 'DM Sans', sans-serif;
     display: flex;
-    
+    flex-wrap: wrap;
+
 }
 
-.m-list{
+.m-list {
     list-style-type: none;
     list-style: none;
     display: flex;
@@ -172,14 +187,16 @@
     padding: 0px;
 
 }
-.m-links{
+
+.m-links {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
     font-size: 16px;
     font-weight: 400;
     cursor: pointer;
 }
-.m-links:hover{
+
+.m-links:hover {
     color: #434CCC;
     font-weight: 700;
 }
@@ -195,11 +212,13 @@
     background: #F1B505;
     cursor: pointer;
 }
+
 .sider {
     display: flex;
     flex-direction: column;
     flex: 1;
 }
+
 .sider1 {
     position: absolute;
     display: flex;
@@ -262,6 +281,7 @@ img {
     font-weight: 700;
     line-height: 24px;
 }
+
 .redamoreButton:hover {
     background-color: #dda41f;
     cursor: pointer;
@@ -320,18 +340,21 @@ img {
     margin: 17px 0px 24px 100px;
     position: relative;
 }
-.smallimgtitlediv2{
+
+.smallimgtitlediv2 {
     width: 147px;
     height: 96px;
     margin: 17px 0px 24px 100px;
     position: relative;
 }
-.smallimgtitlediv3{
+
+.smallimgtitlediv3 {
     width: 111px;
     height: 96px;
     margin: 17px 0px 24px 100px;
     position: relative;
 }
+
 .smallimgtitle {
     color: var(--Text_White, #FFF);
     font-family: DM Serif Display;
@@ -354,10 +377,12 @@ img {
     border-radius: 5px;
     margin: 0px 0px 238px 100px;
 }
-.square-button1:hover{
+
+.square-button1:hover {
     background-color: #da4846;
     cursor: pointer;
 }
+
 .square-button2 {
     width: 48px;
     height: 48px;
@@ -370,10 +395,12 @@ img {
     border-radius: 5px;
     margin: 0px 0px 238px 100px;
 }
-.square-button2:hover{
+
+.square-button2:hover {
     background-color: #1d63ce;
     cursor: pointer;
 }
+
 .square-button3 {
     width: 48px;
     height: 48px;
@@ -386,10 +413,12 @@ img {
     border-radius: 5px;
     margin: 0px 0px 238px 100px;
 }
+
 .square-button3:hover {
     background-color: #cf9b21;
     cursor: pointer;
 }
+
 .square-button4 {
     width: 48px;
     height: 48px;
@@ -402,15 +431,18 @@ img {
     border-radius: 5px;
     margin: 0px 0px 238px 100px;
 }
+
 .square-button4:hover {
     background-color: #6871f1;
     cursor: pointer;
 }
+
 .plus-sign {
     color: white;
     font-size: 36px;
     padding: 14px;
 }
+
 .innerimg2div2 {
     width: 570px;
     height: 512px;
@@ -420,6 +452,7 @@ img {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .innerimg2div3 {
     width: 570px;
     height: 512px;
@@ -428,8 +461,9 @@ img {
     position: relative;
     border-radius: 5px;
     cursor: pointer;
-    
+
 }
+
 .slidersButton {
     margin-top: 48px;
     display: flex;
@@ -437,8 +471,9 @@ img {
     align-items: center;
     gap: 8px;
     margin-bottom: 80px;
-  }
-  .arrowButtonarrow{
+}
+
+.arrowButtonarrow {
     background-color: #f5f6fc;
     width: 48px;
     height: 48px;
@@ -447,33 +482,37 @@ img {
     border-radius: 5px;
     font-weight: 800;
     cursor: pointer;
-  }
-  .arrowButtonarrow:hover{
+}
+
+.arrowButtonarrow:hover {
     border: solid 3px #0074D9;
-  }
-  .arrowButton {
+}
+
+.arrowButton {
     background-color: #f5f6fc;
     width: 48px;
     height: 48px;
     flex-shrink: 0;
-    color: #0074D9;;
+    color: #0074D9;
+    ;
     border: solid 1px #0074D9;
     border-radius: 5px;
     font-weight: 800;
     cursor: pointer;
     fill: #434CCC;
-  }
-  
-  .arrowButton:hover{
+}
+
+.arrowButton:hover {
     background-color: #434ccc;
     color: #ffffff;
-  }
-  .active {
+}
+
+.active {
     color: #0074D9;
     font-weight: bold;
-  }
-  
-.line{
+}
+
+.line {
     width: 1440px;
     height: 1px;
     flex-shrink: 0;
@@ -482,90 +521,143 @@ img {
 }
 
 /* css after img display */
-.m-card{
-    border: 1px solid black;
+.m-card {
+    /* border: 1px solid black;
     width: 1440px;
-    height: 495px;
+    height: 495px; */
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.m-viderer>h5 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
 
 }
 
-.m-viderer > h5{
-font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 4.8px;
-text-transform: uppercase;
-    
-}
-
-.m-first-card{
-    border: 1px solid black;
-    height: 241px;
+.m-first-card {
+    height: 272px;
     width: 275px;
-    margin-left: 135px;
+    /* margin-left: 135px; */
     position: relative;
-    top: 126px;
+    top: 111px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 0px;
 }
 
-.m-viderer{
+.m-viderer {
     width: 92px;
     height: 24px;
-    border: 1px solid black;
-    
+
 }
 
-.m-second-quote{
+.m-second-quote {
     width: 275px;
     height: 96px;
-    border: 1px solid black;
     margin-top: 33px;
 
 }
 
-.m-second-quote > h4{
-font-family: DM Serif Display;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; 
-color: rgba(0, 0, 0, 1);
+.m-second-quote>h4 {
+    color: var(--Text_Black, #000);
+    font-family: DM Serif Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
 }
 
-.m-logos{
-    border: 1px solid;
+.m-logos {
     width: 176px;
     height: 48px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
 
+}
+
+.insta-btn {
+    background-color: #FFF;
+    width: 48px;
+    height: 48px;
+    border-color: rgba(67, 76, 204, 1);
+    border-radius: 10px;
+    border-width: 0.25px;
+    cursor: pointer;
+}
+
+.insta-btn:hover {
+    border: solid 2px #434CCC;
+}
+
+.insta-btn img {
+    width: 18px;
+    height: 18px;
+    margin: 15px, 15px, 15px, 15px;
+}
+
+.insta-btn img:hover {
+    width: 22px;
+    height: 22px;
+}
+
+.insert-design {
+    width: 114px;
+    height: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.insert-design p {
+    color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.imgs {
+    height: 272px;
+    width: 275px;
+    cursor: pointer;
 }
 
 /* Yellow */
-.yellow{
+.yellow {
     width: 1440px;
     height: 352px;
     background-color: #FFDD78;
     display: flex;
 }
-.yhead{
+
+.yhead {
     width: 107px;
     height: 24px;
     margin-top: 79px;
     margin-left: 135px;
     color: black;
-    font-size: 16px;   
-   font-style: normal;
-   font-weight: 400;
-    line-height: 24px; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
     letter-spacing: 4.8px;
     font-family: sans-serif;
 
 }
-.ypara{
+
+.ypara {
     width: 516px;
     height: 128px;
     font-size: 56px;
@@ -576,20 +668,28 @@ color: rgba(0, 0, 0, 1);
     margin-top: 24px;
 
 }
-.righty{
+
+.righty {
     margin-top: 132px;
     margin-left: 85px;
 }
-.yemail{
+
+.yemail {
     width: 370px;
     height: 48px;
     border-radius: 5px;
-     border: 1px solid #DADADA;
+    border: 1px solid #DADADA;
     background-color: #FFF;
     font-size: 20px;
     padding-left: 20px;
 }
-.ybtn{
+
+.yemail:hover {
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+
+.ybtn {
     width: 170px;
     height: 48px;
     margin-left: 30px;
@@ -600,6 +700,13 @@ color: rgba(0, 0, 0, 1);
     border: none;
     border-radius: 5px;
 }
+
+.ybtn:hover {
+    background-color: #3a98dc;
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 
 /* footer */
 
