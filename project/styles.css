@@ -54,7 +54,10 @@
     list-style-type: none;
     display: inline;
     margin-left: 20px;
-
+    cursor: pointer;
+}
+.hlistall li:hover{
+    color: #000;
 }
 .hbtn{
     height: 48px;
@@ -65,21 +68,23 @@
 .hlogoab{
     display: flex;
     flex-direction: row;
-   
-
 }
 .hbutton{
-   width: 170px;
-   height: 48px;
-   margin-left: 40px;
-   background-color: #434CCC;
-   color: #ffffff;
-   border: 1px dotted #f5f6fc;
-   font-size: 16px;
-   font-weight: 400;
-
-   margin-right: 300px;
-   border-radius: 5px;
+    width: 170px;
+    height: 48px;
+    margin-left: 40px;
+    background-color: #434CCC;
+    color: #ffffff;
+    border: 1px dotted #9db2d1;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-right: 300px;
+    border-radius: 5px;
+}
+.hbutton:hover{
+    background-color: #343ba0;
+    border: 1px solid #9db2d1;
 }
 .headerH1{
     height: 80px;
@@ -91,6 +96,7 @@
     margin-left: 580px;
     color: var(--Text_White, #FFF);
     margin-top: 47px;
+    cursor: pointer;
 }
 .headerP{
     height: 32px;
@@ -171,7 +177,11 @@
     color: rgba(0, 0, 0, 0.5);
     font-size: 16px;
     font-weight: 400;
-
+    cursor: pointer;
+}
+.m-links:hover{
+    color: #434CCC;
+    font-weight: 700;
 }
 
 /* body */
@@ -183,6 +193,7 @@
     flex-shrink: 0;
     border-radius: 5px;
     background: #F1B505;
+    cursor: pointer;
 }
 .sider {
     display: flex;
@@ -275,6 +286,7 @@ img {
     background: #E94A47;
     position: relative;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .innerimg2div {
@@ -282,6 +294,9 @@ img {
     height: 512px;
     flex-shrink: 0;
     background: #438dfc;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .imgpdiv {
@@ -403,6 +418,7 @@ img {
     background: #f1b528;
     position: relative;
     border-radius: 5px;
+    cursor: pointer;
 }
 .innerimg2div3 {
     width: 570px;
@@ -411,6 +427,7 @@ img {
     background: #434ccc;
     position: relative;
     border-radius: 5px;
+    cursor: pointer;
     
 }
 .slidersButton {
@@ -463,6 +480,125 @@ img {
     opacity: 0.0974;
     background: #000;
 }
+
 /* css after img display */
+.m-card{
+    border: 1px solid black;
+    width: 1440px;
+    height: 495px;
+
+}
+
+.m-viderer > h5{
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 4.8px;
+text-transform: uppercase;
+    
+}
+
+.m-first-card{
+    border: 1px solid black;
+    height: 241px;
+    width: 275px;
+    margin-left: 135px;
+    position: relative;
+    top: 126px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.m-viderer{
+    width: 92px;
+    height: 24px;
+    border: 1px solid black;
+    
+}
+
+.m-second-quote{
+    width: 275px;
+    height: 96px;
+    border: 1px solid black;
+    margin-top: 33px;
+
+}
+
+.m-second-quote > h4{
+font-family: DM Serif Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+color: rgba(0, 0, 0, 1);
+}
+
+.m-logos{
+    border: 1px solid;
+    width: 176px;
+    height: 48px;
+
+}
+
+/* Yellow */
+.yellow{
+    width: 1440px;
+    height: 352px;
+    background-color: #FFDD78;
+    display: flex;
+}
+.yhead{
+    width: 107px;
+    height: 24px;
+    margin-top: 79px;
+    margin-left: 135px;
+    color: black;
+    font-size: 16px;   
+   font-style: normal;
+   font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 4.8px;
+    font-family: sans-serif;
+
+}
+.ypara{
+    width: 516px;
+    height: 128px;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin-left: 134px;
+    margin-top: 24px;
+
+}
+.righty{
+    margin-top: 132px;
+    margin-left: 85px;
+}
+.yemail{
+    width: 370px;
+    height: 48px;
+    border-radius: 5px;
+     border: 1px solid #DADADA;
+    background-color: #FFF;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.ybtn{
+    width: 170px;
+    height: 48px;
+    margin-left: 30px;
+    background-color: #434CCC;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
 
 /* footer */
