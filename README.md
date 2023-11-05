@@ -1,7 +1,5 @@
 # Healthy Discovery
 
-![Healthy Discovery Logo](link_to_logo.png) (Replace with your logo or a relevant image)
-
 **Healthy Discovery** is a collaborative project that provides a structured layout for a developer's portfolio, aiming to create a lasting impression for portfolio viewers.
 
 ## Table of Contents
