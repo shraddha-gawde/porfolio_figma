@@ -20,6 +20,9 @@
 
 Healthy Discovery is a collaborative project that includes a group of four members. This project serves as a webpage that provides a structured layout for a developer's portfolio, which is a crucial document for every developer.
 
+## Live Link
+https://65467f9b10f7c934ca1f0c3f--famous-froyo-c69d5c.netlify.app/
+
 ## Team Members
 
 - **Shraddha Gawade** (Team Leader)
