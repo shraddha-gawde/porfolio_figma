@@ -50,7 +50,7 @@ The project is divided into three main sections:
 3. **Footer**: A section that typically contains contact information, social media links, and copyright information.
 <img src="https://github.com/shraddha-gawde/healthy-discovery-1593/assets/101090200/6dd41e2b-8de4-4480-9c6b-11679c6ff0c4">
    
-   <img src=">
+
 
 ## Project Planning
 
