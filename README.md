@@ -42,10 +42,12 @@ The webpage consists of three main sections: the header, body, and footer. HTML 
 The project is divided into three main sections:
 
 1. **Header**: A section that introduces the portfolio, includes a logo, and provides navigation links to different parts of the portfolio.
-<img src="https://github.com/shraddha-gawde/healthy-discovery-1593/assets/101090200/5585f3b8-efe5-41b6-b0ed-ee8c6791515e">
+<img src="https://github.com/shraddha-gawde/healthy-discovery-1593/assets/101090200/7368efae-2486-4f49-82ee-7c2a6dc65335">
+
 
 2. **Body**: The main content area where you can showcase your work, projects, and personal information.
 <img src= "https://github.com/shraddha-gawde/healthy-discovery-1593/assets/101090200/f6c816d6-583c-4144-ad7e-2a0873ae156b">
+
 
 3. **Footer**: A section that typically contains contact information, social media links, and copyright information.
 <img src="https://github.com/shraddha-gawde/healthy-discovery-1593/assets/101090200/6dd41e2b-8de4-4480-9c6b-11679c6ff0c4">
